@@ -13,6 +13,11 @@ body {
   overflow-x: hidden;
 }
 
+a {
+  text-decoration: none;
+  display: inline;
+}
+
 .row {
   width: 100%;
   max-width: 1280px;
@@ -90,7 +95,52 @@ nav {
   letter-spacing: 0.35px;
   border-bottom: 2px solid transparent;
   position: relative;
-  transition: all 300ms;
+  transition: 300ms;
+  margin: 0px 24px;
+}
+
+.nav__link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 2px;
+  background-color: #6415ff;
+  transition: all 300ms ease;
+  opacity: 0;
+}
+
+.nav__link:hover::after {
+  opacity: 1;
+}
+
+.login {
+  margin-left: 48px;
+}
+
+.nav__link--primary {
+  margin: 0;
+  padding: 10px 32px;
+  margin-top: 2px;
+  border-radius: 9999px;
+  background-color: #6415ff;
+  line-height: 1.5;
+  color: #fff;
+  border: none;
+  width: auto;
+  transition: all 300ms ease;
+}
+
+.nav__link--primary::after {
+  content: "";
+  width: 0;
+  height: 0;
+}
+
+.nav__link--primary:hover {
+  background-color: #5011cc;
+  color: #fff;
 }
 
 .btn__menu {
