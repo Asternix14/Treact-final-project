@@ -85,6 +85,18 @@ button {
   line-height: 1.6;
 }
 
+.btn {
+  background-color: #6415ff;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 12px 32px;
+  border-radius: 500px;
+  transition: all 300ms ease;
+  cursor: pointer;
+}
+
 /* 
 
 NAVBAR ↓
@@ -423,6 +435,43 @@ QUALITY WORK ↓
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.quality__description,
+.quality__img--wrapper {
+  width: 50%;
+}
+
+.quality__description {
+  max-width: 576px;
+  margin-right: 64px;
+}
+
+#quality .btn {
+  margin-top: 24px;
+}
+
+.quality__img--wrapper {
+  position: relative;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  margin-right: 64px;
+  display: flex;
+}
+
+.quality__img {
+  z-index: 0;
+}
+
+.quality__grid {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 80px;
+  height: 80px;
+  transform: translate(50%, 50%);
+  z-index: -1;
+  fill: #6415ff;
 }
 
 /* 
