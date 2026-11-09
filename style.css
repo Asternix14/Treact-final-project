@@ -854,15 +854,17 @@ TESTIMONIALS ↓
 }
 
 .testimonial__rating {
-  color: #f6ad55;
   margin-top: 4px;
   margin-right: 2px;
 }
 
-.fa__star {
-  color: #f6ad55;
+.fa-star {
   height: 20px;
   width: 20px;
+}
+
+.fa-star path {
+  color: #f6ad55;
 }
 
 .testimonial__title {
