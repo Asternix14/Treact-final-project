@@ -1214,8 +1214,8 @@ MOBILE RESPONSIVENESS ↓
   }
 
   .steps__grid {
-    height: 5rem;
-    width: 5rem;
+    height: 80px;
+    width: 80px;
     bottom: -50px;
   }
 
@@ -1243,8 +1243,8 @@ MOBILE RESPONSIVENESS ↓
   }
 
   .plan__bottom {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 
   .header__img {
@@ -1337,12 +1337,12 @@ MOBILE RESPONSIVENESS ↓
     padding-right: 48px;
   }
   .value {
-    margin-top: 2.5rem;
+    margin-top: 40px;
   }
 
   .values__list {
     flex-direction: column;
-    max-width: 20rem;
+    max-width: 320px;
   }
   .plans {
     flex-direction: column;
@@ -1359,8 +1359,8 @@ MOBILE RESPONSIVENESS ↓
   }
 
   #testimonials .container {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 
   .testimonials__description {
@@ -1368,8 +1368,8 @@ MOBILE RESPONSIVENESS ↓
   }
 
   #start .container {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 
   .start__row {
@@ -1591,7 +1591,7 @@ MOBILE RESPONSIVENESS ↓
   }
 
   .plan__bottom {
-    padding: 2rem 1rem;
+    padding: 32px 16px;
   }
 
   .testimonial__para {
